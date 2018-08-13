@@ -4,6 +4,8 @@ This code is based on Genetic Algorithm proposed in [Ai Game for Developers](htt
 
 This version has some elements in portuguese (my native language), I would like to translate to english when I has time :stuck_out_tongue_winking_eye:, but if you dont speak portuguese, keep calm I guess which you can understand, too.
 
+You can see this code is running [here](https://tushn.github.io/Genetic-Agorithm-Flowers-Example-JS/AI_World.html).
+
 # Explained
 
 Details of programming are exposed in above book, but this important is listing variables below:
