@@ -9,30 +9,31 @@ You can see this code is running [here](https://tushn.github.io/Genetic-Agorithm
 # Explained
 
 Details of programming are exposed in above book, but this important is listing variables below:
-- temperature: 
+
+- temperature:
 - water:
 - sunlight:
 - nutrient:
 - beneficialairinsect:
 - beneficialairinsect
-
+<!--
 <img src="./docs/img/screen.png" alt="" width="300px"/>
-
+-->
 
 <!-- ![Screen](./docs/img/screen.png){:height="36px" width="36px"} -->
 
-
 # TODO:
 
-I wish to add in project:
-[] To finish this README
-[] To rename variables and buttons for english
-[] To present a "perfect flower" for environment in another canvas
-[] To improve HUD, many elements to improvment:
-    [] Sliders for values
-    [] Values variables
-    [] Colors and design
-[] Draw or change specific flowers directly
-[] Change number of flowers in interface
+I wish to add in project:  
+
+- [ ] To finish this README
+- [ ] To rename variables and buttons for english
+- [ ] To present a "perfect flower" for environment in another canvas
+- [ ] To improve HUD, many elements to improvment:
+    - [ ] Sliders for values
+    - [ ] Values variables
+    - [ ] Colors and design
+- [ ] Draw or change specific flowers directly
+- [ ] Change number of flowers in interface
 
 
