@@ -1,5 +1,8 @@
 var divData = document.getElementById("data"), divAmbient = document.getElementById("ambient");
 
+// control
+var evolutions = 0, begin = undefined, interval = 500;
+
 function sortDecreasingVetDuplex(vet){
 	var numMax=0, idMax=0, temp, vetID = new Array();
 	for(var i=0;i<vet.length;i++){
@@ -155,9 +158,9 @@ var AI_World = function(numFlowers){
 		return texto;
 	}				
 	this.debugAmbient = function(){
-		var texto="Ambiente:";
-		texto+=("</br> Geracao: "+_geracao);
-		texto+=("</br> Mutacao: "+_mutacao);
+		var texto="Environment:";
+		texto+=("</br> Generation: "+_geracao);
+		texto+=("</br> Mutation: "+_mutacao);
 		texto+=("</br> temperature: "+this.currentTemperature);
 		texto+=("</br> water: "+this.currentWater);
 		texto+=("</br> sunlight: "+this.currentSunlight);
@@ -175,7 +178,17 @@ var AI_World = function(numFlowers){
 var ai = new AI_World(10);
 divData.innerHTML = ai.debug();
 divAmbient.innerHTML = ai.debugAmbient();
-function atualizar(num){
-	for(var i=0;i<num;i++)
-		ai.Evolve();
+function update(num){
+	//~ for(var i=0;i<num;i++)
+		//~ ai.Evolve();
+	evolutions += num;
+	/*var begin = new Date().getTime(), interval = 500;
+	
+	while(num>0){
+		if(new Date().getTime() - begin > interval){
+			ai.Evolve();
+			num--;
+			begin = new Date().getTime()
+		}
+	}*/
 }

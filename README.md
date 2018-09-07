@@ -10,12 +10,12 @@ You can see this code is running [here](https://tushn.github.io/Genetic-Agorithm
 
 Details of programming are exposed in above book, but this important is listing variables below:
 
-- temperature:
-- water:
-- sunlight:
-- nutrient:
-- beneficialairinsect:
-- beneficialairinsect
+- temperature: in environment, kernel of sun change color and kernel of sunflowers too
+- water: in environment, size of cloud and 
+- sunlight: in environment, change color or border of sun and defines border os sunflowers
+- nutrient: in environment, change color or land and in same color in "caule" of the plant
+- beneficialairinsect: quantity of insects on the air (little moving points on sky) this attributes defines how taller is a plant against "beneficialearthinsect"
+- beneficialearthinsect: quantity of insects on the earth (little moving points on land)
 <!--
 <img src="./docs/img/screen.png" alt="" width="300px"/>
 -->
@@ -26,7 +26,7 @@ Details of programming are exposed in above book, but this important is listing 
 
 I wish to add in project:  
 
-- [ ] To finish this README
+- [X] To finish this README
 - [ ] To rename variables and buttons for english
 - [ ] To present a "perfect flower" for environment in another canvas
 - [ ] To improve HUD, many elements to improvment:
